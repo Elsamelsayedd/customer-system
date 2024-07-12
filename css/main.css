@@ -1,0 +1,17 @@
+label#sear {
+  left: 300px;
+}
+
+input#search {
+  width: 50%;
+}
+
+@media (max-width: 1000px) {
+  input#search {
+    width: 100%;
+  }
+
+  label#sear {
+    left: 0px;
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="customerSystem bg-info w-75 mx-auto my-4 p-2">
+      <h1 class="text-center">CUSTOMER SYSTEM</h1>
+
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="customerName"
+          placeholder="name@example.com"
+        />
+        <label for="customerName">Customer Name</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input
+          type="number"
+          class="form-control"
+          id="number"
+          placeholder="name@example.com"
+        />
+        <label for="number">Number</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input
+          type="number"
+          class="form-control"
+          id="amount"
+          placeholder="name@example.com"
+        />
+        <label for="amount">Amount</label>
+      </div>
+
+      <button id="btnAdd" class="btn btn-primary mb-3">Add Customer</button>
+
+      <!-- Removed start and end date inputs for range filter -->
+
+      <!-- Added a search input for name and amount -->
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="search"
+          placeholder="Search by Name or Amount"
+        />
+        <label for="search">Search by Name or Amount</label>
+      </div>
+    </div>
+
+    <div class="px-5 text-center">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Graph</th>
+          </tr>
+        </thead>
+
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
