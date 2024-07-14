@@ -14,4 +14,32 @@ input#search {
   label#sear {
     left: 0px;
   }
+
+  .graph {
+    width: 100% !important;
+  }
+}
+
+.graph {
+  width: 50%;
+}
+
+body {
+  background-color: #070f2b;
+}
+
+.customerSystem {
+  background-color: rgb(27, 26, 85);
+}
+
+#btnAdd {
+  background-color: rgb(146, 144, 195) !important;
+}
+
+.table {
+  --bs-table-bg: rgb(27, 26, 85);
+}
+
+.graphText {
+  color: rgb(27, 26, 85);
 }
